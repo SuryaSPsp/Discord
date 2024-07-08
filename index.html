@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menu = document.querySelector('.menu');
+            const closeMenu = document.querySelector('.closemenu img');
+            const navbar = document.getElementById('om');
+
+            menu.addEventListener('click', function() {
+                navbar.style.display = 'flex';
+            });
+
+            closeMenu.addEventListener('click', function() {
+                navbar.style.display = 'none';
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Navbar section -->
+    <section id="navbar">
+        <nav>
+            <div class="logo"><a href="#"><img src="img/logo.svg"></a></div>
+            <ul class="navbar" id="om">
+                <div class="closemenu">
+                    <img class="x" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/62594869635af64d3e8a9a63_Frame.svg">
+                </div>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Safety</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+                <div class="li-btn">
+                    <a href="#">Download</a>
+                </div>
+            </ul>
+            <div class="main">
+                <div class="nav-btn">
+                    <a href="#">Login</a>
+                </div>
+            </div>
+            <img class="menu" onclick="openmenus()" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/625846fc39fbe53385840143_1%20(3).svg">
+        </nav>
+    </section>
+    <!-- Home section -->
+    <section id="home">
+        <div class="home-top">
+            <div class="home-right">
+                <h1>GROUP CHAT THAT’S ALL FUN <img src="img/home1.png"> GAMES</h1>
+                <p>Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</p>
+            </div>
+            <div class="home-left">
+                <img class="h-img" src="img/664dae3aa8fa28593aa47cc6_CHARACTERS FULL.webp">
+            </div>
+        </div>
+        <div class="home-bottom">
+            <button class="download">Download for Linux</button>
+            <button class="open">Open Discord in your browser</button>
+        </div>
+    </section>
+    <!-- Home-1 section -->
+    <section id="home-1">
+        <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6620ec7544fa3849c3cb27fc_party_wumpus.gif">
+        <div class="c-1">
+            <div class="c-2">
+                <div class="c-right">
+                    <video src="img/con-1.mp4" loop muted autoplay></video>
+                </div>
+                <div class="c-left">
+                    <h2>MAKE YOUR GROUP CHATS MORE FUN</h2>
+                    <p>Use custom emoji, stickers, soundboard effects and more to add your personality to your voice, video, or text chat. Set your avatar and a custom status, and write your own profile to show up in chat your way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home-2 section -->
+    <section id="home-2">
+        <div class="c-1">
+            <div class="c-2">
+                <div class="c-right">
+                    <h2>STREAM LIKE YOU’RE IN THE SAME ROOM</h2>
+                    <p>High quality and low latency streaming makes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something.</p>
+                </div>
+                <div class="c-left">
+                    <video src="img/CON-2.mp4" loop muted autoplay></video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home-3 section -->
+    <section id="home-3">
+        <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6630f482123160b94617877a_Box%20(1).webp">
+        <div class="c-1">
+            <div class="c-2">
+                <div class="c-right">
+                    <video src="img/con-3.mp4" loop muted autoplay></video>
+                </div>
+                <div class="c-left">
+                    <h2>HOP IN WHEN YOU'RE FREE, NO NEED TO CALL</h2>
+                    <p>Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home-4 section -->
+    <section id="home-4">
+        <img class="line" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664f259f33b6731b7df75db4_line-move.webp">
+        <div class="marquee-container">
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+                <div class="marquee-content">
+                    TALK <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    PLAY <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    CHAT <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    HANG OUT<img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    TALK <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    PLAY <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    CHAT <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    HANG OUT<img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    TALK <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    PLAY <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    CHAT <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp"> 
+                    HANG OUT
+                </div>
+            </marquee>
+        </div>
+    </section>
+    <!-- Home-5 section -->
+    <section id="home-5">
+        <div class="c-1">
+            <div class="c-2">
+                <div class="c-right">
+                    <h2>SEE WHO'S AROUND TO CHILL</h2>
+                    <p>See who's around, playing games, or just hanging out. For supported games, you can see what modes or characters your friends are playing and directly join up.</p>
+                </div>
+                <div class="c-left">
+                    <video src="img/con-5.mp4" loop muted autoplay></video>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Home-6 section -->
+    <section id="home-6">
+        <img class="women-top" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6633621b9b5c83e2ee57271f_woman-top.webp">
+        <img class="women-btm" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6633620bd19f5f363e7d1823_woman-bottom.webp">
+        <img class="men" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/663361fab0387e34d5aae65e_Men%20(1).webp">
+        <div class="c-1">
+            <div class="c-2">
+                <div class="c-right">
+                    <video src="img/con-6.mp4" loop muted autoplay></video>
+                </div>
+                <div class="c-left">
+                    <h2>ALWAYS HAVE SOMETHING TO DO TOGETHER</h2>
+                    <p>Watch videos, play built-in games, listen to music, or just scroll together and spam memes. Seamlessly text, call, video chat, and play games, all in one group chat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home-7 section -->
+    <section id="home-7">
+        <div class="c-1">
+            <div class="c-2">
+                <div class="c-right">
+                    <h2>WHEREVER YOU GAME, HANG OUT HERE</h2>
+                    <p>On your PC, phone, or console, you can still hang out on Discord. Easily switch between devices and use tools to manage multiple group chats with friends.</p>
+                </div>
+                <div class="c-left">
+                    <video src="img/con-7.mp4" loop muted autoplay></video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home-8 section -->
+    <section id="home-8">
+        <div class="no-scroll">
+            <h2>YOU CAN'T SCROLL ANYMORE.<br>BETTER GO CHAT.</h2>
+            <button href="#" class="h-8-btn">Download for Mac</button>
+        </div>
+    </section> 
+    <!-- Home-9 section -->
+    <section id="home-9">
+        <div class="lin"></div>
+        <img class="bear" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/662fa569e650b7bdf2f5d8b4_WUMPUS_LEAN_MOUTH.webp">
+        <img class="robo" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6641da5484ffb72b9ad73f01_Clyde.webp">
+        <img class="leaf" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664f28347027689069a4147e_wumpus.webp">
+        <img class="main" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6658cc069d1eb1caf9426914_Footer-Art_cut.webp">
+    </section>
+    <!-- Footer section -->
+    <section id="footer">
+        <div class="ft">
+            <div class="ft-1">
+                <div class="ft-1-1">
+                    <div class="lan">
+                        <img class="flag" src="img/uk.svg">
+                        <p>English(UK)</p>
+                        <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe10ef3e439bb3365f6a_Arrow.svg">
+                    </div>
+                    <div class="icon">
+                        <a href="#"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4237b6a1c4fa714f76_x.svg"></a>
+                        <a href="#"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7a0_instagram.svg"></a>
+                        <a href="#"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4173c1df8be608c8a2_facebook.svg"></a>
+                        <a href="#"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7ad_youtube.svg"></a>
+                        <a href="#"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4152ae5860036dadf1_tiktok.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-2">
+                <div class="ft-2-1">
+                    <p>Product</p>
+                    <a href="#">Download</a>
+                    <a href="#">Nitro</a>
+                    <a href="#">Status</a>
+                    <a href="#">App Directory</a>
+                    <a href="#">New Mobile Experience</a>
+                </div>
+                <div class="ft-2-1">
+                    <p>Company</p>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Brand</a>
+                    <a href="#">Newsroom</a>
+                </div>
+                <div class="ft-2-1">
+                    <p>Resources</p>
+                    <a href="#">College</a>
+                    <a href="#">Support</a>
+                    <a href="#">Safety</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Feedback</a>
+                    <a href="#">StreamKit</a>
+                    <a href="#">Creators</a>
+                    <a href="#">Community</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Gaming</a>
+                    <a href="#">Quests</a>
+                    <a href="#">Official 3rd Party Merch</a>
+                </div>
+                <div class="ft-2-1">
+                    <p>Policies</p>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies Settings</a>
+                    <a href="#">Guidelines</a>
+                    <a>Acknowledgements</a>
+                    <a href="#">Licences</a>
+                    <a href="#">Company Information</a>
+                </div>
+            </div>
+        </div>
+        <div class="ft-bottom">
+            <hr>
+            <div class="sign">
+                <a href="#"><img src="img/logo.svg"></a>
+                <a class="signup" href="#">Sign up</a>
+            </div> 
+        </div>
+    </section>
+</body>
+</html>
